@@ -1,0 +1,7 @@
+services:
+  web:
+    build: ./conf/web
+    ports:
+      - 8080:80
+    volumes:
+      - ./web:/var/www/html
